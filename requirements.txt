@@ -1,0 +1,12 @@
+transformers
+datasets==2.19.0
+torch
+evaluate
+optimum[onnxruntime]
+onnxruntime
+fastapi
+uvicorn
+matplotlib
+scikit-learn
+pydantic
+accelerate
