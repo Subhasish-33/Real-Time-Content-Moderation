@@ -28,6 +28,9 @@ This project implements a high-speed, automated content moderation engine. It is
 ## 🚦 How to Run
 
 ### 1. Clone the repo
-```bash
-git clone [https://github.com/Subhasish-33/Real-Time-Moderation.git](https://github.com/Subhasish-33/Real-Time-Moderation.git)
-cd Real-Time-Moderation
+   bash
+   git clone [https://github.com/Subhasish-33/Real-Time-Moderation.git](https://github.com/Subhasish-33/Real-Time-Moderation.git)
+   cd Real-Time-Moderation
+2. Install Dependencies: pip install transformers onnxruntime fastapi torch
+3. Run the Speed Benchmark: python src/benchmark.py
+4. Start the API: uvicorn app.main:app --reload
